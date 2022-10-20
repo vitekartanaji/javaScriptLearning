@@ -20,7 +20,7 @@ function gradeSystem(score){
             console.log(`You are passed with score- ${score} & your grade is "A+".`);
             break;
         default:
-            console.log(`Invalid input--> ${score}`);
+            console.log(`Invalid Input--> ${score}`);
     }
 }
 
