@@ -79,3 +79,12 @@ console.log(Object.keys(person));
 // to find the total values in the object
 
 console.log(Object.values(person));
+
+// to find the property is available or not in the object
+
+let isAvailable = "fullName" in person;
+console.log(isAvailable);    //true
+
+let isAvailable2 = "city" in person;
+console.log(isAvailable2);    //false
+
