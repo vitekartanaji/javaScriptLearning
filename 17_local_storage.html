@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <h3>Understanding Local Storage</h3>
+    <script>
+
+        window.localStorage.setItem("Tanaji","Somewadi");   // to add items in local storage
+        window.localStorage.setItem("Sharan","Mahud");
+        window.localStorage.setItem("Pravin","Pune");
+
+        window.localStorage.removeItem("Sharan");          // to remove item from local storage
+
+        window.localStorage.length;                        // to find the length of the local storage
+
+        // window.localStorage.clear()         // used to clear all the  items from local storage
+        console.log(window.localStorage.getItem("Tanaji"));
+    </script>
+</body>
+</html>
