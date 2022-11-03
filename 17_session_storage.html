@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h3>Understanding Session Storage</h3>
+    <script>
+        window.sessionStorage.setItem("Rohit","Mumbai");    // to add keys in session storage
+        window.sessionStorage.setItem("Rahul","Pune");
+        window.sessionStorage.setItem("Virat","Delhi");
+        window.sessionStorage.setItem("Surya","Mumbai");
+
+        window.sessionStorage.removeItem("Rahul");         // to remove key in from session storage
+
+        window.sessionStorage.length;                        // to find the length of the session storage
+
+       // window.sessionStorage.clear()         // used to clear all the  items from session storage
+    </script>
+</body>
+</html> 
