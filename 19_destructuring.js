@@ -17,8 +17,8 @@ let person = {
 // let state = person.state;
 // let isMarried = person.isMarried;
 
-let {name, city, age, pin, state, isMarried} = person;
-console.log(name, city, age, pin, state, isMarried);
+let {name, city, age, pin, state, isMarried,a=50} = person;
+console.log(name, city, age, pin, state, isMarried,a);
 
 // let {name, city="Mumbai", age, No=9834592981, state, isMarried} = person;
 // console.log(name, city, age, state, isMarried,No);      // also we pass default values while destructuring
