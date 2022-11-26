@@ -1,4 +1,4 @@
-let is_sir_shared_notes = false;
+let is_sir_shared_notes = true;
 
 let promice = new Promise(function(resolve, rejected){
     if(is_sir_shared_notes){
@@ -15,3 +15,4 @@ promice.then(function(Success){
 }).finally(function(Thank_You){
     console.log("Thank you.");
 })
+
