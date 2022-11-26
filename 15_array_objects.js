@@ -23,5 +23,3 @@ for (let index = 0; index < ary.length; index++) {
         console.log(`${element.fullName}, ${element.city}, ${element.age}, ${element.gender}`);        
     }
 };
-
-
