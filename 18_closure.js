@@ -6,7 +6,7 @@ function outer(){
 
     let innerFunction = function(){
         let innerFunctionVariable = 200;
-        console.log(outerFunctionVariable,innerFunctionVariable,globalVariable);
+        console.log(innerFunctionVariable,outerFunctionVariable,globalVariable);
     }
     return innerFunction;
 };
