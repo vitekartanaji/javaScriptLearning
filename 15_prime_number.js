@@ -7,5 +7,5 @@ function primeNumber(arg1){
     return true;
 }
 
-console.log(primeNumber(15));
-console.log(primeNumber(17));
+console.log(primeNumber(18));
+console.log(primeNumber(23));
